@@ -1,4 +1,4 @@
-def bubble(arr: list, i_num: int, j_num: int) -> tuple(list, int, int):
+def bubble(arr: list, i_num: int, j_num: int) -> tuple[list, int, int]:
     """
     This function is a modified version of the bubble sorting algorithm.
     After one switch in the inputted array is made, the function returns
@@ -16,7 +16,7 @@ def bubble(arr: list, i_num: int, j_num: int) -> tuple(list, int, int):
         j_num = 0
 
 
-def selection(arr: list, i_num: int) -> tuple(list, int, int):
+def selection(arr: list, i_num: int) -> tuple[list, int, int]:
     """
     This function is a modified version of the bubble sorting algorithm.
     After one switch in the inputted array is made, the function returns
@@ -33,7 +33,7 @@ def selection(arr: list, i_num: int) -> tuple(list, int, int):
         return arr, i+1, min_idx
 
 
-def insertion(arr: list, i_num: int) -> tuple(list, int, int):
+def insertion(arr: list, i_num: int) -> tuple[list, int, int]:
     """
     This function is a modified version of the bubble insertion algorithm.
     After one switch in the inputted array is made, the function returns
